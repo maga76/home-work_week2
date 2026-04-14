@@ -133,3 +133,22 @@ button{
  .card{
     @include card();
  }
+@mixin card2{
+    width: 270px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 30px;
+}
+.cardmin{
+    @include card2();
+}
+.Slate{
+    width: 234px;
+    height: 72px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    display: flex;
+    margin-top: 20px;
+}
