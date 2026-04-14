@@ -1,1 +1,145 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  row-gap: 160px;
+}
+.header .headp {
+  display: flex;
+  gap: 30px;
+}
+.header .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.header .head button {
+  background-color: #23A6F0;
+  padding: 10px 20px;
+  color: white;
+  font-size: 13px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+}
+.header .head2 {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.header .head2 h1 {
+  font-size: 50px;
+}
+.header .head2 .div {
+  display: flex;
+  gap: 10px;
+}
+.header .head2 p {
+  font-size: 20px;
+}
+.header .head2 .btn1 {
+  background-color: #23A6F0;
+  padding: 10px 20px;
+  color: white;
+  font-size: 13px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+}
+.header .head2 .btn2 {
+  background-color: #23A6F0;
+  padding: 10px 20px;
+  color: white;
+  font-size: 13px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.header .right {
+  width: 260px;
+  padding: 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+}
+.header .right .inps {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.header .right .inps input {
+  color: grey;
+  padding: 10px;
+  background-color: #F9F9F9;
+  border: 1px solid grey;
+  width: 80%;
+}
+.header .right .b {
+  background-color: #23A6F0;
+  padding: 10px 20px;
+  color: white;
+  font-size: 13px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  width: 230px;
+}
+.header .OBW {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Leading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 112px;
+  margin-left: -550px;
+}
+
+.Problems {
+  width: 470px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #737373;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.divO {
+  max-width: 1200px;
+  margin: auto;
+  margin-left: 500px;
+  text-align: center;
+}
+
+.card {
+  width: 320px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid #A9D6FF;
+}/*# sourceMappingURL=style.css.map */
